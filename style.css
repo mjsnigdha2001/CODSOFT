@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(208, 222, 230, 0.8), rgba(73, 79, 82, 0.8));
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+}
+.logo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img
+{
+    width: 30%;
+    height: 10%;
+   
+}
+.menu {
+    display: flex; 
+}
+.menu a {
+    text-decoration: none;
+    color: #201658;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+.menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #201658;
+    transition: 0.4s linear;
+}
+.menu a:hover::before {
+    width: 100%;
+}
+.register a {
+    text-decoration: none;
+    color:indianred;
+    padding: 10px 20px;
+    font-size: 20px;
+    background:white;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.register a:hover {
+    background: transparent;
+    border: 1px solid #201658;
+}
+.h-text {
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.h-text span {
+    font-size: 2.5em;
+    margin-bottom: 60px;
+    color: #201658;
+    
+    
+}
+.h-text h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+   
+    
+}
+.h-text a {
+    text-decoration: none;
+    font-size: 20px;
+    background: #201658;
+    color: white;
+    padding: 10px 20px;
+    
+   margin-top: 20px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.h-text a:hover {
+    background: transparent;
+    border: 1px solid #201658;
+}
+
+.footer
+{
+    width:100%;
+    margin-top: 80px;
+   padding: 50px 526px;
+    align-items: center;
+}
+.socialicons a
+{
+  text-decoration: none;
+  padding: 5px;
+  background-color: #201658;
+  margin: 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
